@@ -37,15 +37,15 @@ The tool uses both **AI models** (like Isolation Forest) and **rule-based detect
 
 ## 🧰 Tech Stack
 
-| Category            | Tools & Libraries                                                                 |
+| Category            | Tools & Libraries                                                                  |
 |---------------------|------------------------------------------------------------------------------------|
-| **Languages**        | Python, Bash, HTML, JavaScript (for maps)                                         |
-| **AI & Detection**   | Scikit-learn (Isolation Forest), Regex, Outlier detection                         |
+| **Languages**        | Python                                                                            |
+| **AI & Detection**   | Scikit-learn (Isolation Forest), Regex, Outlier detection (DBSCAN)                |
 | **Log Parsing**      | pandas, re, datetime                                                              |
-| **Visualization**    | matplotlib, seaborn, Plotly, Streamlit (optional)                                 |
+| **Visualization**    | matplotlib, seaborn, Streamlit                                                    |
 | **File Integrity**   | hashlib                                                                           |
 | **IP Attribution**   | ipwhois, requests, ipInfo Geolocation API                                         |
-| **Report Export**    | fpdf, reportlab, weasyprint                                                       |
+| **Report Export**    | fpdf                                                                              |
 
 ---
 
