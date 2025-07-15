@@ -19,7 +19,7 @@ The tool uses both **AI models** (like Isolation Forest) and **rule-based detect
 
 ## 🎯 Key Features
 
-- ✅ Log format parsing (Apache/Nginx - CLF, JSON, etc.)
+- ✅ Log format parsing (Apache/Nginx)
 - ✅ Detection of:
   - Directory traversal, SQLi, RCE attempts
   - Brute-force login floods
@@ -28,8 +28,8 @@ The tool uses both **AI models** (like Isolation Forest) and **rule-based detect
 - ✅ Frequency analysis of IPs, URLs, and error codes
 - ✅ AI anomaly detection using Isolation Forest
 - ✅ User-Agent profiling to detect bots/spoofing
-- ✅ WHOIS & Google Maps API integration for IP tracing
-- ✅ Forensic timeline generation (matplotlib/Plotly)
+- ✅ WHOIS & ipInfo Geolocation API integration for IP tracing
+- ✅ Forensic timeline generation (matplotlib,streamlit)
 - ✅ File integrity verification (SHA256/MD5)
 - ✅ PDF report generation
 
