@@ -43,10 +43,9 @@ The tool uses both **AI models** (like Isolation Forest) and **rule-based detect
 | **AI & Detection**   | Scikit-learn (Isolation Forest), Regex, Outlier detection                         |
 | **Log Parsing**      | pandas, re, datetime                                                              |
 | **Visualization**    | matplotlib, seaborn, Plotly, Streamlit (optional)                                 |
-| **File Integrity**   | hashlib                                                                            |
-| **IP Attribution**   | ipwhois, requests, Google Maps API                                                |
+| **File Integrity**   | hashlib                                                                           |
+| **IP Attribution**   | ipwhois, requests, ipInfo Geolocation API                                         |
 | **Report Export**    | fpdf, reportlab, weasyprint                                                       |
-| **Storage**          | CSV, SQLite (optional)                                                            |
 
 ---
 
@@ -55,14 +54,8 @@ The tool uses both **AI models** (like Isolation Forest) and **rule-based detect
 ```bash
 breachlens/
 │
-├── data/                  # Raw and parsed log files
-├── src/                   # Source code: parsing, detection, modeling
-│   ├── log_parser.py
-│   ├── anomaly_detector.py
-│   ├── regex_rules.py
-│   └── report_generator.py
-├── notebooks/             # Jupyter notebooks for exploration
-├── outputs/               # Anomaly results, PDFs, charts
+├── dashboard.py              # Python file for streamlit integration
+├── simulated_acess_log.log   # training data
 ├── README.md
 ├── requirements.txt
-└── main.py                # Orchestration script
+└── main.py                   # Orchestration script
